@@ -1,6 +1,14 @@
 # HousingAnalysisApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+This project was generated with 
+
+## different port script 
+* `ng serve --port 4401   `
+
+## Add dockerfile
+change `COPY --from=build /usr/local/app/dist/<service-name> /usr/share/nginx/html`
+
+## helm 
 
 ## Development server
 

@@ -1,0 +1,15 @@
+replicaCount: 1
+service:
+  type: NodePort
+  name: housing-analysis-app-svc
+  nodePort: 31004
+
+ImageName: hhssaaffii/housing-analysis-app
+
+appName: housing-analysis-app
+
+host: hello-world-8.pvt
+
+artifactory:
+  name: artifactory
+
