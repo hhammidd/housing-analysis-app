@@ -9,7 +9,7 @@ ImageName: hhssaaffii/housing-analysis-app
 appName: housing-analysis-app
 
 host: evbricks.com
-path: /house
+path: house
 
 artifactory:
   name: artifactory
