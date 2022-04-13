@@ -8,7 +8,8 @@ ImageName: hhssaaffii/housing-analysis-app
 
 appName: housing-analysis-app
 
-host: hello-world-8.pvt
+host: evbricks.com
+path: /house
 
 artifactory:
   name: artifactory
