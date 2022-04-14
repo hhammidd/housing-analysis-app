@@ -8,7 +8,6 @@ import { HouseComponent } from './house/house.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HouseComponent
   ],
   imports: [
     BrowserModule,
