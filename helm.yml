@@ -1,5 +1,6 @@
 replicaCount: 1
 service:
+  servicePort: 80
   type: NodePort
   name: housing-analysis-app-svc
   nodePort: 31004
@@ -7,9 +8,10 @@ service:
 ImageName: hhssaaffii/housing-analysis-app
 
 appName: housing-analysis-app
+exposeImagePort: 4202
 
 host: evbricks.com
-path: house
+path:
 
 artifactory:
   name: artifactory
